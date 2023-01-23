@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: greenyellow;
+  padding: 10px 70px;
+  color: green;
+}
+main {
+  background-image: url("https://i.etsystatic.com/30589192/r/il/912d12/3211239547/il_1588xN.3211239547_sn67.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.name {
+  margin: 10px;
+}
+.button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(106, 106, 255);
+  padding: 10px 70px;
+  margin: 10px 20%;
+}
+.button:hover {
+  background-color: blue;
+}
+
+.button.active {
+  background-color: greenyellow;
+}
+
+
+footer {
+  background-color: greenyellow;
+  padding: 10px 70px;
+  color: green;
+}
