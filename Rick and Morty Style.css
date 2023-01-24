@@ -23,6 +23,10 @@ main {
   border-radius: 10px;
   overflow: hidden;
 }
+.card:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
 .name {
   margin: 10px;
 }
@@ -35,6 +39,8 @@ main {
 }
 .button:hover {
   background-color: blue;
+  transform: scale(1.1);
+  transition: 300ms;
 }
 
 .button.active {
